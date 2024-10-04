@@ -42,7 +42,7 @@ const Chat = () => {
         <div className="flex pl-10 items-center my-8">
           <img src={avatar} className="w-12" />
           <div className="ml-4">
-            <h3 className="text-2xl">Tutorial Dev</h3>
+            <h3 className="text-2xl">Munna Ahmed</h3>
             <p className="text-lg">My Account</p>
           </div>
         </div>
