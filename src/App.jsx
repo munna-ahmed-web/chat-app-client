@@ -1,10 +1,11 @@
-import { useState } from "react";
+import { RouterProvider } from "react-router-dom";
 import "./App.css";
+import router from "./routes/router";
 
 function App() {
   return (
     <>
-      <h1 className="bg-green-300">App</h1>
+      <RouterProvider router={router} />
     </>
   );
 }
